@@ -34,14 +34,14 @@ p.title {
 	border-right: 3px;
 }
 #title1 {
-	background-color: Tomato;
+	background-color: #f7a3a3;
 }
 #title2 {
 	color: white;
-	background-color: Orange;
+	background-color: #d30404;
 }
 #title3 {
-	background-color:DodgerBlue;
+	background-color: #fff7a8;
 }
 p.content {
 	clear: right;
