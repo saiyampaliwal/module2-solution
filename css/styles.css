@@ -48,7 +48,7 @@ p.content {
 	padding: 10px;
 }
 
-/********** desktop view **********/
+/********** Desktop View **********/
 @media (min-width: 992px) {
 	.sec1, .sec2, .sec3 {
 		float: left;
@@ -66,7 +66,7 @@ p.content {
 	}
 }
 
-/********** tablet view **********/
+/********** Tablet View **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	.sec1, .sec2 {
 		float: left;
@@ -86,6 +86,21 @@ p.content {
 	}
 }
 
-
-
-
+/********** Mobile View **********/
+@media (max-width: 768px)  {
+	.sec1, .sec2,.sec3 {
+		float: left;
+		width: 100%;
+	}
+	
+	}
+	#div1 {
+		margin-right: 15px;
+	}
+	#div2 {
+		margin-left: 15px;
+	}
+	#div3 {
+		margin-top: 0px;
+	}
+}
