@@ -15,7 +15,7 @@ section {
 	width: 100%;
 }
 div {
-  	background-color: #c4c4c4;
+  	background-color: Gray;
   	height: 200px;
   	margin: 30px;
 	border: 3px solid black;
@@ -34,14 +34,14 @@ p.title {
 	border-right: 3px;
 }
 #title1 {
-	background-color: #f7a3a3;
+	background-color: Tomato;
 }
 #title2 {
 	color: white;
-	background-color: #d30404;
+	background-color: Orange;
 }
 #title3 {
-	background-color: #fff7a8;
+	background-color:DodgerBlue;
 }
 p.content {
 	clear: right;
