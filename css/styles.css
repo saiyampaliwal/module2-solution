@@ -1,0 +1,91 @@
+* {
+  	box-sizing: border-box;
+  	font-family: Verdana, Helvetica, sans-serif;
+  	margin: 0px;
+}
+
+h1 {
+	font-size: 175%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+section {
+	width: 100%;
+}
+div {
+  	background-color: #c4c4c4;
+  	height: 200px;
+  	margin: 30px;
+	border: 3px solid black;
+	overflow: hidden;
+}
+p {
+	float: right;
+}
+p.title {
+	width: 150px;
+	font-size: 125%;
+	text-align: center;
+	margin: 0px;
+	border: solid black;
+	border-top: 3px;
+	border-right: 3px;
+}
+#title1 {
+	background-color: #f7a3a3;
+}
+#title2 {
+	color: white;
+	background-color: #d30404;
+}
+#title3 {
+	background-color: #fff7a8;
+}
+p.content {
+	clear: right;
+	padding: 10px;
+}
+
+/********** desktop view **********/
+@media (min-width: 992px) {
+	.sec1, .sec2, .sec3 {
+		float: left;
+		width: 33.33%;
+	}
+	#div1 {
+		margin-right: 15px;
+	}
+	#div2 {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#div3 {
+		margin-left: 15px;
+	}
+}
+
+/********** tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.sec1, .sec2 {
+		float: left;
+		width: 50%;
+	}
+	.sec3 {
+		float: left;
+	}
+	#div1 {
+		margin-right: 15px;
+	}
+	#div2 {
+		margin-left: 15px;
+	}
+	#div3 {
+		margin-top: 0px;
+	}
+}
+
+
+
+
